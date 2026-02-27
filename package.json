@@ -1,0 +1,28 @@
+{
+  "name": "@indiekitai/rich-inspect",
+  "version": "0.1.0",
+  "description": "Rich inspect() for JavaScript/TypeScript — beautifully formatted object inspection in the terminal",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "rich-inspect": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules node_modules/.bin/vitest run",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["inspect", "debug", "pretty-print", "terminal", "cli", "mcp"],
+  "license": "MIT",
+  "files": ["dist"],
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0",
+    "@types/node": "^20.0.0"
+  }
+}
