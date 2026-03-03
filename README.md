@@ -1,3 +1,5 @@
+[English](README.md) | [中文](README.zh-CN.md)
+
 # @indiekitai/rich-inspect
 
 > Rich inspect() for JavaScript/TypeScript — beautifully formatted object inspection in the terminal.
